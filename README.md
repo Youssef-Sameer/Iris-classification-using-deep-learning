@@ -1,18 +1,21 @@
 # Iris-classification-using-deep-learning
-This project aims to classify iris flowers using deep learning techniques. The dataset used for training and testing the models consists of images of iris flowers with different species. The dataset has been augmented to improve model generalization and robustness.
+This repository contains a project aimed at classifying iris flowers using deep learning techniques. The project utilizes popular models like ResNet50, VGG16, and VGG19 to achieve accurate classification results.
 
-Models Used:
+Dataset
+The dataset used for training and testing the models is available here. It comprises images of iris flowers categorized into different species. The dataset has been augmented to enhance model generalization and performance.
 
-ResNet50: Residual Neural Network architecture with 50 layers known for its effectiveness in image classification tasks.
-VGG16: A convolutional neural network architecture with 16 layers, widely used for image classification tasks.
-VGG19: Similar to VGG16 but with 19 layers, offering slightly improved performance.
-Dataset:
-The dataset used for this project can be found here. It contains images of iris flowers categorized into different species.
+Usage
+To use this project, follow these steps:
 
-Approach:
+Clone the repository to your local machine.
+Download the dataset from the provided link.
+Train and test the models using the provided scripts.
+Experiment with different hyperparameters and architectures to improve performance.
+Models
+The project employs the following deep learning models:
 
-Data Augmentation: Techniques such as rotation, scaling, and flipping were applied to increase the diversity of the dataset and improve model generalization.
-Model Training: The augmented dataset was used to train the ResNet50, VGG16, and VGG19 models.
-Model Evaluation: The trained models were evaluated using metrics such as accuracy, precision, recall, and F1-score to assess their performance in classifying iris flowers.
-Conclusion:
-By leveraging deep learning models such as ResNet50, VGG16, and VGG19, along with data augmentation techniques, this project demonstrates an effective approach to classify iris flowers with high accuracy. The trained models can potentially be deployed in real-world applications for automated flower species identification.
+ResNet50
+VGG16
+VGG19
+Contributions
+Contributions to this project are welcome. If you have any ideas for improvements or bug fixes, feel free to submit a pull request.
